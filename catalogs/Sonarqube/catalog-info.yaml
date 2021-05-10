@@ -2,8 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: SonarQube
-  description: |
-    Backstage is an open-source developer portal that puts the developer experience first.
+  description: Backstage is an open-source developer portal that puts the developer experience first.
   annotations:
     sonarqube.org/project-key: new-android
 spec:
