@@ -45,6 +45,7 @@ import {
   EntityOwnershipCard,
 } from '@backstage/plugin-org';
 import { EntityTechdocsContent } from '@backstage/plugin-techdocs';
+import { EntitySonarQubeCard } from '@backstage/plugin-sonarqube';
 
 const cicdContent = (
   // This is an example of how you can implement your company's logic in entity page.
@@ -77,6 +78,9 @@ const overviewContent = (
   <Grid container spacing={3} alignItems="stretch">
     <Grid item md={6}>
       <EntityAboutCard variant="gridItem" />
+    </Grid>
+    <Grid item md={6}>
+      <EntitySonarQubeCard variant="gridItem" />
     </Grid>
   </Grid>
 );
