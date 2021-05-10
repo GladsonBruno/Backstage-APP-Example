@@ -47,7 +47,7 @@ proxy:
     target: https://sonarcloud.io/api
     allowedMethods: ['GET']
     headers:
-      Authorization: Basic ${SONARQUBE_AUTH}
+      Authorization: ${SONARQUBE_AUTH}
       # Content: 'base64("<api-key>:")' <-- note the trailing ':'
       # Example: bXktYXBpLWtleTo=
 
